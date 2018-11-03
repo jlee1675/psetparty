@@ -18,7 +18,7 @@ class App extends Component {
                 <input type="text" name="currentItem" placeholder="What course are you?" />
                 <input type="text" name="email" placeholder="What's your Kerberos?" />
                 <input type="text" name="phonenumb" placeholder="What's your phone number?" />
-                <button>Add Item</button>
+                <button>Submit</button>
               </form>
           </section>
           <section className='display-item'>
