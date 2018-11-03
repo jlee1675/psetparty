@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import Login from './containers/Login'
+import Login from './components/Login'
 import './App.css';
 
 class App extends Component {
+  constructor (props){
+    super(props);
+    this.state = {
+
+    }
+  }
   render() {
     return (
-      <div className='app'>
+      <div className='app'>   
         <header>
             <div className='wrapper'>
               <h1>Pset Party</h1>
