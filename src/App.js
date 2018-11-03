@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Login from './containers/Login'
 import './App.css';
 
 class App extends Component {
@@ -12,21 +12,7 @@ class App extends Component {
             </div>
         </header>
         <div className='container'>
-          <section className='add-item'>
-              <form>
-                <input type="text" name="username" placeholder="What's your name?" />
-                <input type="text" name="currentItem" placeholder="What course are you?" />
-                <input type="text" name="email" placeholder="What's your Kerberos?" />
-                <input type="text" name="phonenumb" placeholder="What's your phone number?" />
-                <button>Add Item</button>
-              </form>
-          </section>
-          <section className='display-item'>
-            <div className='wrapper'>
-              <ul>
-              </ul>
-            </div>
-          </section>
+          <Login />
         </div>
       </div>
     );
