@@ -8,8 +8,12 @@ class App extends Component {
       <div className='app'>
         <header>
             <div className='wrapper'>
+<<<<<<< HEAD
               <h1>Pset Party</h1>
               
+=======
+              <h1>Fun Food Friends</h1>
+>>>>>>> dde198dd79dbf6cf866c11f2688a78dae1c7de32
             </div>
         </header>
         <div className='container'>
