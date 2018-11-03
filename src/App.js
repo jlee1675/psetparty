@@ -9,7 +9,6 @@ class App extends Component {
         <header>
             <div className='wrapper'>
               <h1>Fun Food Friends</h1>
-              
             </div>
         </header>
         <div className='container'>
