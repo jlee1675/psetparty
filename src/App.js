@@ -16,6 +16,7 @@ class App extends Component {
               <form>
                 <input type="text" name="username" placeholder="What's your name?" />
                 <input type="text" name="currentItem" placeholder="What are you studying?" />
+                <input type="text" name="email" placeholer="What's your Kerbiez?" />
                 <button>Add Item</button>
               </form>
           </section>
