@@ -4,6 +4,7 @@ import Profile from './components/Profile'
 import JoinForm from './components/JoinForm'
 import './App.css';
 
+
 class App extends Component {
   constructor (props){
     super(props);

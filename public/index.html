@@ -7,9 +7,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!--
+      Google firebase
+    -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBMIgZqVP_rQr8PiWQmt9riN1H2xBINirQ",
+        authDomain: "pset-party.firebaseapp.com",
+        databaseURL: "https://pset-party.firebaseio.com",
+        projectId: "pset-party",
+        storageBucket: "pset-party.appspot.com",
+        messagingSenderId: "802611230861"
+      };
+      firebase.initializeApp(config);
+    </script>
+  
+    <!--
       Added below for styling
     -->
     <link rel="stylesheet" href="../4/flatly/bootstrap.css" media="screen">
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
