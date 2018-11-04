@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Login from './components/Login'
 import Profile from './components/Profile'
 import JoinForm from './components/JoinForm'
+import firestore from './firebase'
 import './App.css';
 
 
