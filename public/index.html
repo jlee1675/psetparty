@@ -9,20 +9,7 @@
     <!--
       Google firebase
     -->
-    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyBMIgZqVP_rQr8PiWQmt9riN1H2xBINirQ",
-        authDomain: "pset-party.firebaseapp.com",
-        databaseURL: "https://pset-party.firebaseio.com",
-        projectId: "pset-party",
-        storageBucket: "pset-party.appspot.com",
-        messagingSenderId: "802611230861"
-      };
-      firebase.initializeApp(config);
-    </script>
-  
+    <script src="/__/firebase/5.5.7/firebase-app.js"></script>
     <!--
       Added below for styling
     -->
@@ -56,6 +43,20 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
+    
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBMIgZqVP_rQr8PiWQmt9riN1H2xBINirQ",
+        authDomain: "pset-party.firebaseapp.com",
+        databaseURL: "https://pset-party.firebaseio.com",
+        projectId: "pset-party",
+        storageBucket: "pset-party.appspot.com",
+        messagingSenderId: "802611230861"
+      };
+      firebase.initializeApp(config);
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
