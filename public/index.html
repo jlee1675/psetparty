@@ -9,8 +9,20 @@
     <!--
       Google firebase
     -->
-    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBMIgZqVP_rQr8PiWQmt9riN1H2xBINirQ",
+        authDomain: "pset-party.firebaseapp.com",
+        databaseURL: "https://pset-party.firebaseio.com",
+        projectId: "pset-party",
+        storageBucket: "pset-party.appspot.com",
+        messagingSenderId: "802611230861"
+      };
+      firebase.initializeApp(config);
+    </script>
+  
     <!--
       Added below for styling
     -->

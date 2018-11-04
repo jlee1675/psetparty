@@ -8,4 +8,6 @@ import firebase from 'firebase'
     messagingSenderId: "802611230861"
   };
   firebase.initializeApp(config);
+
+  var firestore = firebase.firestore();
   export default firebase;
