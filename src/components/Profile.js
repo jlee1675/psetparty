@@ -9,9 +9,9 @@ class Profile extends Component {
     }
     render() {
         return (
-            <div>
-                
-            </div>
+            <section className='profile'>
+                    <h2>Hey there!</h2>
+            </section>
         )
     }
 }

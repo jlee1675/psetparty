@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Login.css';
+import JoinForm from './JoinForm'
 
 class Login extends Component {
     constructor (props){
@@ -20,11 +21,12 @@ class Login extends Component {
         const isLoggedIn = this.state.isLoggedIn;
         if (isLoggedIn) {
             return(
-                <button onClick={this.handleLogoutClick}> Sign Out</button>
+                <JoinForm />
             )
+
         } else {
             return(
-                <section className='add-item'>
+                <section className='login'>
                   <form>
                     <input type="text" name="username" placeholder="What's your name?" />
                     <input type="text" name="currentItem" placeholder="What course are you?" />
