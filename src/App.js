@@ -11,7 +11,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className='app'>   
+      <div className='app'>
         <header>
             <div className='wrapper'>
               <h1>Pset Party</h1>
