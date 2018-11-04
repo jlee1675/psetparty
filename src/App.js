@@ -41,7 +41,7 @@ class App extends Component {
   //   }).catch(function(error){
   //     console.log("Got an error: ", error)
   //   });
-
+ 
 
   // }
   
@@ -53,13 +53,6 @@ class App extends Component {
               <h1>Pset Party</h1>
             </div>
         </header>
-        {this.state.users.map((doc, i) => {
-          return (
-            <div key={i}> 
-              <span> {doc.id} </span>
-            </div> 
-          )
-        })}
         <Login />
         
       </div>
