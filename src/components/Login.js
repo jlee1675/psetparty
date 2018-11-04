@@ -21,7 +21,7 @@ class Login extends Component {
         const isLoggedIn = this.state.isLoggedIn;
         if (isLoggedIn) {
             return(
-                <JoinForm />
+                <JoinForm/>
             )
 
         } else {
