@@ -28,7 +28,7 @@ class JoinForm extends Component {
         const isFormSubmit = this.state.isFormSubmit;
         if (isFormSubmit) {
             return(
-                <Profile pset={this.state.pset}/>
+                <Profile pset={this.state.pset} time={this.state.time}/>
             )
 
         } else {

@@ -11,7 +11,7 @@ class Profile extends Component {
     render() {
         return (
             <section className='profile'>
-                    <h2>here is {this.props.pset}</h2>
+                    <h2>Hey there! You are studying {this.props.pset} and you are available at {this.props.time}.</h2>
             </section>
         )
     }
